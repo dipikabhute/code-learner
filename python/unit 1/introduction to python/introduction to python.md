@@ -112,7 +112,7 @@ Web scraping 🌐
 print("Hello", name)
 
 
-# ** 📌 Basic Structure of Python **
+#  📌 Basic Structure of Python 
 
 1️⃣ Variables
 
