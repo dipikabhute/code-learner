@@ -16,7 +16,7 @@ parent: Unit 1
 
 ### 👉 Python is often called an “English-like language” because its syntax is very easy to understand.
 
-# ** 📌 Features of Python **
+# ** 📌 Features of Python ** 
 
 ## 1️⃣ Easy to Learn & Use
 
