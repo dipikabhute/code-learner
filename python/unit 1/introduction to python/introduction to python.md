@@ -6,7 +6,7 @@ parent: Unit 1
 
 ---
 
-#🐍 Introduction to Python Programming Language
+# ** 🐍 Introduction to Python Programming Language **
 
 ## ⭐ What is Python?
 
@@ -16,11 +16,11 @@ parent: Unit 1
 
 ### 👉 Python is often called an “English-like language” because its syntax is very easy to understand.
 
-# 📌 Features of Python
+# ** 📌 Features of Python **
 
 ## 1️⃣ Easy to Learn & Use
 
-Python has a very simple syntax.
+## ** Python has a very simple syntax. **
 
 print("Hello World")
 
@@ -48,7 +48,7 @@ Python supports OOP concepts such as:
 🔄 Polymorphism
 5️⃣ Portable Language
 
-## **✔ Python code runs on all platforms:
+## ** ✔ Python code runs on all platforms: **
 
 Windows 🪟
 Mac 🍎
@@ -68,7 +68,7 @@ Python provides many built-in modules:
 ✔ Free to use
 ✔ Large global community support 🌍
 
-# 📚 Uses of Python
+# ** 📚 Uses of Python **
 
 ## 💻 1. Web Development
 
@@ -92,6 +92,7 @@ NumPy
 Matplotlib
 
 ## 🎮 4. Game Development
+
 Pygame 🎮
 
 ## 🔐 5. Cyber Security
@@ -100,6 +101,7 @@ Ethical hacking tools
 Security automation
 
 ## ⚙️ 6. Automation
+
 File handling 📁
 Web scraping 🌐
 
@@ -110,7 +112,7 @@ name = input("Enter your name: ")
 print("Hello", name)
 
 
-# 📌 Basic Structure of Python
+# ** 📌 Basic Structure of Python **
 
 1️⃣ Variables
 2️⃣ Data Types
