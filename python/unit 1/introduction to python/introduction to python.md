@@ -377,4 +377,4 @@ Not preferred for high-performance games.
 
 Python is a simple, powerful, and beginner-friendly language used in many modern technologies like AI, Data Science, and Web Development. It is easy to learn but has some performance limitations.
 
----
+--------
