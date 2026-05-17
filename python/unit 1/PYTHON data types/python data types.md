@@ -9,14 +9,14 @@ parent: Unit 1
 # 🌟 Introduction to Python Data Types
 
 ## Python मध्ये data store करण्यासाठी Data Types वापरतात.
-## Different type चा data store करण्यासाठी Python वेगवेगळे data types provide करतो.
+### Different type चा data store करण्यासाठी Python वेगवेगळे data types provide करतो.
 
 ---
 ---
 ## 📂 Python Data Types Diagram
 
 ##                     Python Data Types 
-                           │
+##                           │
  ##    ┌─────────────────────┼─────────────────────┐
  ##    │                     │                     │
 ##  Numeric              Sequence              Boolean
@@ -36,22 +36,22 @@ parent: Unit 1
 
 ## Data Type	         Description	          Example
 
-## int              	Whole Number	              10
-## float	            Decimal Number	              5.5
-## complex	            Imaginary Number	          2+
+###  int              	Whole Number	              10
+### float	            Decimal Number	              5.5
+### complex	            Imaginary Number	          2+
 
 ## 1️⃣ Integer (int) Data Type
 
 ## 📖 Definition
 
-## Whole numbers store करण्यासाठी int वापरतात.
+### Whole numbers store करण्यासाठी int वापरतात.
 
-## ✔️ Decimal नसतो
-## ✔️ Positive किंवा Negative value असू शकते
+####   ✔️ Decimal नसतो
+####   ✔️ Positive किंवा Negative value असू शकते
 
 ## ✨ Syntax
 
-## variable_name = value
+### variable_name = value
 
 ## 💻 Example
 
