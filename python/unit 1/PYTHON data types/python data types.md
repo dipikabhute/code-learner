@@ -20,12 +20,12 @@ parent: Unit 1
 
 ---
 
-|  Variable	    |Value	      |Data Type|
+## |  Variable	    |Value	      |Data Type|
   
 
-| a	            |10	          | int      |
+   | a	            |10	          | int      |
     
-| b	            |3.14	      |float    |
+   | b	            |3.14	      |float    |
     
  | c	            |Python	      |string   |
 
