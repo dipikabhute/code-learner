@@ -249,17 +249,17 @@ parent: Unit 1
 ### ✔️ Immutable
 ### ✔️ Allows duplicates
 
-## 📊 Difference Between List and Tuple
-
 ---
+ 📊 Difference Between List and Tuple
+
 | Feature|	List	|Tuple|
--------------------------
 
 |Symbol  |[]	    |()   |
 |Mutable |	Yes	  |No   |
 |Speed	 |Slower	|Faster|
 |Memory	 |More    |	Less |
 ---
+
 🔄 Type Conversion
 📖 Definition
 
