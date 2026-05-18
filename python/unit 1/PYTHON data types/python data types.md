@@ -253,6 +253,7 @@ parent: Unit 1
 
 ---
 | Feature|	List	|Tuple|
+-------------------------
 
 |Symbol  |[]	    |()   |
 |Mutable |	Yes	  |No   |
