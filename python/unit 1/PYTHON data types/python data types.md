@@ -20,7 +20,7 @@ parent: Unit 1
 
 ---
 
-## |  Variable	    |Value	      |Data Type|
+ |  Variable	    |Value	      |Data Type|
   
 
    | a	            |10	          | int      |
