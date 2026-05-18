@@ -252,6 +252,7 @@ parent: Unit 1
 ## 📊 Difference Between List and Tuple
 ---
 | Feature|	List	|Tuple|
+
 |Symbol  |[]	    |()   |
 |Mutable |	Yes	  |No   |
 |Speed	 |Slower	|Faster|
