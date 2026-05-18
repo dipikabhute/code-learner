@@ -31,7 +31,7 @@ parent: Unit 1
 
  ---
 
-🔢 Numeric Data Types
+# **🔢 Numeric Data Types**
 
 Python provides 3 main numeric data types:
 
