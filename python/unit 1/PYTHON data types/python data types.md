@@ -250,6 +250,7 @@ parent: Unit 1
 ### ✔️ Allows duplicates
 
 ## 📊 Difference Between List and Tuple
+
 ---
 | Feature|	List	|Tuple|
 
