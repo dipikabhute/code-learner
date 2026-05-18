@@ -255,8 +255,11 @@ parent: Unit 1
 | Feature|	List	|Tuple|
 
 |Symbol  |[]	    |()   |
+
 |Mutable |	Yes	  |No   |
+
 |Speed	 |Slower	|Faster|
+
 |Memory	 |More    |	Less |
 ---
 
