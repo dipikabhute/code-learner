@@ -250,7 +250,7 @@ parent: Unit 1
 ### ✔️ Allows duplicates
 
 ---
- 📊 Difference Between List and Tuple
+ 📊 **Difference Between List and Tuple**
 
 | Feature|	List	|Tuple|
 
@@ -307,6 +307,7 @@ parent: Unit 1
 ## 🔹 Important Built-in Functions
 
 ---
+
 |Function	|Purpose           |
 
 |type()	  |Shows data type   |
@@ -324,100 +325,42 @@ parent: Unit 1
 |tuple()	|Converts to tuple|
 
 ---
-✅ Example of Built-in Functions
-x = "Python"
 
-print(len(x))
-print(type(x))
-📌 Output
-6
-<class 'str'>
-📊 Comparison of Numeric Data Types
-Feature	int	float	complex
-Decimal Allowed	❌	✔️	✔️
-Imaginary Part	❌	❌	✔️
-Example	10	3.14	2+3j
-✅ Advantages and Disadvantages
-🔹 Advantages
+## ✅ Example of Built-in Functions
 
-✔️ Easy to use
-✔️ Beginner friendly
-✔️ Flexible data handling
-✔️ Fast development
+### x = "Python"
+### print(len(x))
+### print(type(x))
 
-🔹 Disadvantages
+## 📌 Output
+###    6
+###   <class 'str'>
 
-❌ High memory usage
-❌ Slower than compiled languages
-❌ Runtime errors possible
 
-🎯 Important Interview Questions and Answers
-❓1. What is a data type in Python?
-✅ Answer:
+# **⭐ Remember These**
 
-A data type defines the kind of value a variable can store.
+### ✔️ int → Whole numbers
+### ✔️ float → Decimal numbers
+### ✔️ complex → Imaginary numbers
+### ✔️ Strings use quotes
+### ✔️ Lists are mutable
+### ✔️ Tuples are immutable
+### ✔️ Slicing uses [start:end]
+### ✔️ type() checks data type
 
-❓2. Difference between List and Tuple?
-✅ Answer:
-List	Tuple
-Mutable	Immutable
-Uses []	Uses ()
-❓3. What is slicing?
-✅ Answer:
 
-Slicing is used to extract a part of a sequence.
+## 🎓 Final Conclusion
 
-Example:
+### Python data types are the foundation of programming.
+### Understanding lists, tuples, strings, and numeric types helps in writing efficient and powerful programs. 🚀
 
-text[1:4]
-❓4. What is a complex number?
-✅ Answer:
+## 🌟 Quick Revision Chart
 
-A number containing real and imaginary parts.
+### int      → Whole Numbers
+### float    → Decimal Numbers
+### complex  → Imaginary Numbers
+### string   → Text Data
+### list     → Mutable Collection
+### tuple    → Immutable Collection
 
-Example:
-
-2 + 3j
-❓5. What is type conversion?
-✅ Answer:
-
-Changing one data type into another.
-
-Example:
-
-int(3.5)
-📝 Exam-Oriented Key Points
-⭐ Remember These
-
-✔️ int → Whole numbers
-✔️ float → Decimal numbers
-✔️ complex → Imaginary numbers
-✔️ Strings use quotes
-✔️ Lists are mutable
-✔️ Tuples are immutable
-✔️ Slicing uses [start:end]
-✔️ type() checks data type
-
-📚 Summary
-🔥 In This Chapter You Learned:
-
-✔️ Numeric data types (int, float, complex)
-✔️ String operations
-✔️ Lists and slicing
-✔️ Tuple data type
-✔️ Type conversions
-✔️ Built-in functions
-
-🎓 Final Conclusion
-
-Python data types are the foundation of programming.
-Understanding lists, tuples, strings, and numeric types helps in writing efficient and powerful programs. 🚀
-
-🌟 Quick Revision Chart
-int      → Whole Numbers
-float    → Decimal Numbers
-complex  → Imaginary Numbers
-string   → Text Data
-list     → Mutable Collection
-tuple    → Immutable Collection
-🚀 Happy Learning Python 🐍
+---
