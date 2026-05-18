@@ -261,45 +261,69 @@ parent: Unit 1
 |Speed	 |Slower	|Faster|
 
 |Memory	 |More    |	Less |
+
 ---
 
-🔄 Type Conversion
-📖 Definition
+# **🔄 Type Conversion**
 
-Changing one data type into another is called Type Conversion.
+## 📖 Definition
+###   Changing one data type into another is called Type Conversion.
 
-🔹 Integer to Float
-x = 10
 
-print(float(x))
-📌 Output
-10.0
-🔹 Float to Integer
-y = 5.8
+## 🔹 Integer to Float
 
-print(int(y))
-📌 Output
-5
-🔹 Integer to String
-num = 100
+### x = 10
+### print(float(x))
 
-print(str(num))
-📌 Output
-"100"
-⚙️ Built-in Functions
-📖 Definition
+## 📌 Output
+###    10.0
 
-Functions already available in Python are called Built-in Functions.
 
-🔹 Important Built-in Functions
-Function	Purpose
-type()	Shows data type
-len()	Finds length
-int()	Converts to integer
-float()	Converts to float
-str()	Converts to string
-list()	Converts to list
-tuple()	Converts to tuple
+## 🔹 Float to Integer
+
+###     y = 5.8
+###     print(int(y))
+
+## 📌 Output
+###     5
+
+
+## 🔹 Integer to String
+
+###      num = 100
+###      print(str(num))
+
+## 📌 Output
+
+###    "100"
+
+
+##  ⚙️ Built-in Functions
+
+##  📖 Definition
+###     Functions already available in Python are called Built-in Functions.
+
+
+## 🔹 Important Built-in Functions
+
+---
+|Function	|Purpose           |
+
+|type()	  |Shows data type   |
+
+|len()	  |Finds length      | 
+
+|int()	  |Converts to integer|
+
+|float()	|Converts to float|
+
+|str()	  |Converts to string|
+
+|list()	  |Converts to list|
+
+|tuple()	|Converts to tuple|
+
+---
 ✅ Example of Built-in Functions
 x = "Python"
 
