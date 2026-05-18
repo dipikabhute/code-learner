@@ -19,10 +19,13 @@ parent: Unit 1
 ###    c = "Python"
 
 ## |Variable	    |Value	      |Data Type|
+----------------------------------------------
 ### |a	            |10	           |int|
+-----------------------------------------------
 ### |b	            |3.14	       |float|
+--------------------------------------------------
 ### |c	            |Python	       |string|
-
+-------------------------------------------------
 🔢 Numeric Data Types
 
 Python provides 3 main numeric data types:
