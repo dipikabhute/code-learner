@@ -24,7 +24,7 @@ parent: Unit 1
 
 ## 🔢 1. Numeric Data Types
 
-## 📖 Definition
+### 📖 Definition
 
  ### Numbers store करण्यासाठी वापरले जाणारे data types म्हणजे Numeric Data Types.
 
