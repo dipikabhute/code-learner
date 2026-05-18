@@ -42,169 +42,218 @@ parent: Unit 1
 ### int stores whole numbers without decimal points.
 
 ## ✅ Example
-x = 100
-print(x)
-print(type(x))
+### x = 100
+#### print(x)
+### print(type(x))
 
 ## 📌 Output
-100
-<class 'int'>
+### 100
+### <class 'int'>
 
-⭐ Features
+## ⭐ Features
 
-✔️ Positive and negative numbers
-✔️ No decimal point
-✔️ Unlimited length
+### ✔️ Positive and negative numbers
+### ✔️ No decimal point
+### ✔️ Unlimited length
 
-🎯 Real Life Example
-Age = 20
-Marks = 95
-Number of students = 50
-🔹 Float (float)
-📖 Definition
+## 🎯 Real Life Example
+### Age = 20
+### Marks = 95
+### Number of students = 50
 
-float stores decimal point numbers.
 
-✅ Example
-price = 99.99
-print(price)
-print(type(price))
-📌 Output
-99.99
-<class 'float'>
-⭐ Featu
-res
+## 🔹 Float (float)
 
-✔️ Decimal values
-✔️ Scientific notation supported
+## 📖 Definition
+### float stores decimal point numbers.
 
-✅ Scientific Notation Example
-x = 2.5e3
-print(x)
-📌 Output
-2500.0
-🔹 Complex (complex)
-📖 Definition
+## ✅ Example
 
-Complex numbers contain a real part and an imaginary part.
+### price = 99.99
+### print(price)
+### print(type(price))
 
-👉 Imaginary part uses j.
+## 📌 Output
+###   99.99
+###   <class 'float'>
 
-✅ Example
-z = 2 + 3j
-print(z)
-print(type(z))
-📌 Output
-(2+3j)
-<class 'complex'>
-📌 Formula
+## ⭐ Features
 
-z=a+bj
+### ✔️ Decimal values
+### ✔️ Scientific notation supported
 
-Where:
+## ✅ Scientific Notation Example
+### x = 2.5e3
+### print(x)
 
-a = Real part
-b = Imaginary part
-🔤 String Data Type
-📖 Definition
+## 📌 Output
+### 2500.0
 
-A String is a collection of characters enclosed in quotes.
 
-✅ Creating Strings
-name = "Python"
-city = 'Pune'
-✨ String Operations
-🔹 1. Concatenation (+)
-a = "Hello"
-b = "World"
+## 🔹 Complex (complex)
 
-print(a + " " + b)
-📌 Output
-Hello World
-🔹 2. Repetition (*)
-print("Hi " * 3)
-📌 Output
-Hi Hi Hi
-🔹 3. Indexing
-text = "Python"
+## 📖 Definition
+### Complex numbers contain a real part and an imaginary part.
+### 👉 Imaginary part uses j.
 
-print(text[0])
-print(text[2])
-📌 Output
-P
-t
-🔹 4. Slicing
-📖 Syntax
-string[start:end]
-✅ Example
-word = "Programming"
+## ✅ Example
 
-print(word[0:6])
-📌 Output
-Progra
-🔹 5. Length Function
-text = "Python"
+### z = 2 + 3j
+### print(z)
+### print(type(z))
 
-print(len(text))
-📌 Output
-6
-📋 List Data Type
-📖 Definition
+## 📌 Output
+### (2+3j)
+### <class 'complex'>
 
-A List is an ordered collection of items.
+ ## 📌 Formula
 
-✔️ Mutable (can change)
-✔️ Allows duplicate values
+### z=a+bj
 
-✅ Creating List
-numbers = [10, 20, 30, 40]
-print(numbers)
-📌 Output
-[10, 20, 30, 40]
-✨ List Features
+### Where:
 
-✔️ Ordered
-✔️ Mutable
-✔️ Heterogeneous data allowed
+### a = Real part
+### b = Imaginary part
 
-🔪 List Slicing
-📖 Syntax
-list[start:end]
-✅ Example
-data = [1,2,3,4,5,6]
 
-print(data[1:4])
-📌 Output
-[2, 3, 4]
-📊 List Slicing Diagram
-Index:   0   1   2   3   4   5
-Value:  [1,  2,  3,  4,  5,  6]
-📦 Tuple Data Type
-📖 Definition
+# **🔤 String Data Type**
 
-A Tuple is an ordered collection of items that cannot be changed.
+## 📖 Definition
+### A String is a collection of characters enclosed in quotes.
 
-✔️ Immutable
-✔️ Faster than lists
+## ✅ Creating Strings
 
-✅ Creating Tuple
-t = (10, 20, 30)
+### name = "Python"
+### city = 'Pune'
 
-print(t)
-📌 Output
-(10, 20, 30)
-🔍 Tuple Features
+## ✨ String Operations
 
-✔️ Ordered
-✔️ Immutable
-✔️ Allows duplicates
+## 🔹 1. Concatenation (+)
 
-📊 Difference Between List and Tuple
-Feature	List	Tuple
-Symbol	[]	()
-Mutable	Yes	No
-Speed	Slower	Faster
-Memory	More	Less
+### a = "Hello"
+### b = "World"
+### print(a + " " + b)
+
+## 📌 Output
+### Hello World
+
+
+## 🔹 2. Repetition (*)
+
+### print("Hi " * 3)
+
+## 📌 Output
+
+### Hi Hi Hi
+
+
+## 🔹 3. Indexing
+
+### text = "Python"
+### print(text[0])
+### print(text[2])
+
+## 📌 Output
+### P
+### t
+
+
+## 🔹 4. Slicing
+
+## 📖 Syntax
+### string[start:end]
+
+## ✅ Example
+### word = "Programming"
+### print(word[0:6])
+
+## 📌 Output
+###    Progra
+
+
+ ## 🔹 5. Length Function
+
+###        text = "Python"
+###        print(len(text))
+
+## 📌 Output
+### 
+
+
+#  **📋 List Data Type**
+
+## 📖 Definition
+### A List is an ordered collection of items.
+
+### ✔️ Mutable (can change)
+### ✔️ Allows duplicate values
+
+## ✅ Creating List
+
+### numbers = [10, 20, 30, 40]
+### print(numbers)
+
+## 📌 Output
+
+### [10, 20, 30, 40]
+
+## ✨ List Features
+
+### ✔️ Ordered
+### ✔️ Mutable
+### ✔️ Heterogeneous data allowed
+
+## 🔪 List Slicing
+
+## 📖 Syntax
+
+### list[start:end]
+
+## ✅ Example
+
+### data = [1,2,3,4,5,6]
+### print(data[1:4])
+
+## 📌 Output
+
+### [2, 3, 4]
+
+## 📊 List Slicing Diagram
+
+### Index:   0   1   2   3   4   5
+### Value:  [1,  2,  3,  4,  5,  6]
+
+# **📦 Tuple Data Type**
+
+## 📖 Definition
+### A Tuple is an ordered collection of items that cannot be changed.
+
+### ✔️ Immutable
+### ✔️ Faster than lists
+
+## ✅ Creating Tuple
+
+### t = (10, 20, 30)
+### print(t)
+
+## 📌 Output
+
+### (10, 20, 30)
+
+## 🔍 Tuple Features
+
+### ✔️ Ordered
+### ✔️ Immutable
+### ✔️ Allows duplicates
+
+## 📊 Difference Between List and Tuple
+---
+| Feature|	List	|Tuple|
+|Symbol	|[]	       |()|
+|Mutable|	Yes	     |No|
+|Speed	|Slower	|Faster|
+|Memory	|More|	Less|
+---
 🔄 Type Conversion
 📖 Definition
 
