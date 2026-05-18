@@ -13,18 +13,14 @@ parent: Unit 1
 
 ---
 ---
-## 📂 Python Data Types Diagram
+# 📂 Python Data Types Diagram
 
-##                     Python Data Types 
-##                           │
- ##    ┌─────────────────────┼─────────────────────┐
- ##    │                     │                     │
-##  Numeric              Sequence              Boolean
-##      │                     │
-## ┌───┼────┐          ┌─────┼─────┐
-## │   │    │          │     │     │
-## int float complex  String List Tuple
----
+---                     Python Data Types                           │
+-  ┌───┼────┐          ┌─────┼─────┐
+│   │    │          │     │     │
+ int float complex  String List Tuple
+
+ ---
 
 ## 🔢 1. Numeric Data Types
 
