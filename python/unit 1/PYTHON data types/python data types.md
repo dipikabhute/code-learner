@@ -62,6 +62,7 @@ parent: Unit 1
 ### Number of students = 50
 
 
+
 ## 🔹 Float (float)
 
 ## 📖 Definition
@@ -90,6 +91,7 @@ parent: Unit 1
 ### 2500.0
 
 
+
 ## 🔹 Complex (complex)
 
 ## 📖 Definition
@@ -116,6 +118,7 @@ parent: Unit 1
 ### b = Imaginary part
 
 
+
 # **🔤 String Data Type**
 
 ## 📖 Definition
@@ -126,7 +129,7 @@ parent: Unit 1
 ### name = "Python"
 ### city = 'Pune'
 
-## ✨ String Operations
+# ✨ String Operations
 
 ## 🔹 1. Concatenation (+)
 
@@ -249,10 +252,10 @@ parent: Unit 1
 ## 📊 Difference Between List and Tuple
 ---
 | Feature|	List	|Tuple|
-|Symbol	|[]	       |()|
-|Mutable|	Yes	     |No|
-|Speed	|Slower	|Faster|
-|Memory	|More|	Less|
+|Symbol  |[]	    |()   |
+|Mutable |	Yes	  |No   |
+|Speed	 |Slower	|Faster|
+|Memory	 |More    |	Less |
 ---
 🔄 Type Conversion
 📖 Definition
