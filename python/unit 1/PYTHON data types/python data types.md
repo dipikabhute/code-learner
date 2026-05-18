@@ -18,11 +18,11 @@ parent: Unit 1
 ###    b = 3.14
 ###    c = "Python"
 
-## Variable	Value	Data Type
-|a	|10	  | int|
-----------------
-|b	3.14	float
-c	Python	string
+## Variable	       Value	      Data Type
+### a	            10	           int
+### b	            3.14	       float
+### c	            Python	       string
+
 🔢 Numeric Data Types
 
 Python provides 3 main numeric data types:
@@ -331,4 +331,3 @@ string   → Text Data
 list     → Mutable Collection
 tuple    → Immutable Collection
 🚀 Happy Learning Python 🐍
----
