@@ -6,7 +6,7 @@ parent: Unit 1
 
 ---
 
-# 🌟 Introduction to Data Types
+#  🌟**Introduction to Data Types**
 
 ## 📖 Definition
 ### A Data Type defines the type of value a variable can store.
@@ -33,24 +33,23 @@ parent: Unit 1
 
 # **🔢 Numeric Data Types**
 
-Python provides 3 main numeric data types:
 
-Data Type	Description	Example
-int	Integer numbers	10
-float	Decimal numbers	3.14
-complex	Complex numbers	2+3j
-🔹 Integer (int)
-📖 Definition
+## Python provides 3 main numeric data types:
 
-int stores whole numbers without decimal points.
+## 🔹 Integer (int)
 
-✅ Example
+## 📖 Definition
+### int stores whole numbers without decimal points.
+
+## ✅ Example
 x = 100
 print(x)
 print(type(x))
-📌 Output
+
+## 📌 Output
 100
 <class 'int'>
+
 ⭐ Features
 
 ✔️ Positive and negative numbers
@@ -73,7 +72,8 @@ print(type(price))
 📌 Output
 99.99
 <class 'float'>
-⭐ Features
+⭐ Featu
+res
 
 ✔️ Decimal values
 ✔️ Scientific notation supported
