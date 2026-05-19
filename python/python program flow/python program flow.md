@@ -1,6 +1,6 @@
 ---
 title: 📌 Python Program FlowControl 
-nav_order: 1
+nav_order: 3
 parent: Python
 ---
 ---
@@ -501,7 +501,8 @@ print(sum)
 ### 55
 
 
-✅ Program 5: Factorial Using while
+## ✅ Program 5: Factorial Using while
+
 num = 5
 fact = 1
 
@@ -510,9 +511,12 @@ while num > 0:
     num -= 1
 
 print(fact)
-📌 Output
+
+## 📌 Output
 120
-✅ Program 6: Prime Number Check
+
+## ✅ Program 6: Prime Number Check
+
 num = 7
 flag = True
 
@@ -531,7 +535,7 @@ else:
 
 ## 🌟 Advantages of Loops
 
-# ##✅ Reduce code repetition
+### ✅ Reduce code repetition
 ### ✅ Save time
 ### ✅ Increase efficienc
 ### ✅ Easy automation
