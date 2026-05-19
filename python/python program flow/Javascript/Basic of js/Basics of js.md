@@ -73,25 +73,25 @@ parent: JavaScript
 
 # **Basic Structure of JavaScript** 💻
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>JavaScript Example</title>
-</head>
-<body>
+###  <!DOCTYPE html>
+###  <html>
+### <head>
+###     <title>JavaScript Example</title>
+###   </head>
+### <body>
 
-<h1 id="demo">Hello</h1>
+### <h1 id="demo">Hello</h1>
 
-<button onclick="changeText()">Click Here</button>
+### <button onclick="changeText()">Click Here</button>
 
-<script>
-function changeText() {
-    document.getElementById("demo").innerHTML = "Welcome to JavaScript";
-}
-</script>
+### <script>
+### function changeText() {
+###     document.getElementById("demo").innerHTML = "Welcome to JavaScript";
+###  }
+### </script>
 
-</body>
-</html>
+### </body>
+### </html>
 
 ---
 
