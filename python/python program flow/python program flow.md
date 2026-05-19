@@ -19,7 +19,7 @@ parent: Python
 ---
 ## 🔷 Types of Flow Control in Python
 
-|Type	                      |  Purpose              |
+|**Type**	                   |  **Purpose**          |    
 
 |🔀 Conditional Statements	  |  Decision making      |
 
@@ -92,7 +92,7 @@ parent: Python
 
 ## ✅ if-elif-else Statement
 
-- ####  Used to check multiple conditions.
+- ###  Used to check multiple conditions.
 
 📌 Syntax
 if condition1:
