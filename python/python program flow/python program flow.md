@@ -67,7 +67,7 @@ parent: Python
 
 
 ## ✅ if-else Statement
-### - Used when there are two choices.
+- Used when there are two choices.
 
 ## 📌 Syntax
 
@@ -92,7 +92,7 @@ parent: Python
 
 ## ✅ if-elif-else Statement
 
-Used to check multiple conditions.
+- ## Used to check multiple conditions.
 
 📌 Syntax
 if condition1:
