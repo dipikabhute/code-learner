@@ -184,8 +184,11 @@ parent: Python
 ## 🔷 **Types of Loops**
 
 Loop	      Purpose
+
 for loop 	  Fixed repetition
+
 while loop 	  Repeat while condition is True
+
 ---
 
 ✅ Simple for Loop
