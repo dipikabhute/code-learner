@@ -70,6 +70,7 @@ parent: JavaScript
 ---
 
 ---
+
 # **Basic Structure of JavaScript** 💻
 
 <!DOCTYPE html>
