@@ -414,70 +414,93 @@ parent: Python
 
 ### for i in range(5):
 ###    pass
-💡 Explanation
-pass does nothing
-Used for future code
-✅ else with Loop
 
-The else block executes when loop ends normally.
+## 💡 Explanation
 
-📌 Example
-for i in range(3):
-    print(i)
+- ### pass does nothing
+- ### Used for future code
 
-else:
-    print("Loop Finished")
-📌 Output
-0
-1
-2
-Loop Finished
-🔷 Programming Using Conditional Statements and Loops
-✅ Program 1: Check Positive or Negative
-num = int(input("Enter Number: "))
 
-if num > 0:
-    print("Positive")
+## ✅ else with Loop
+- ### The else block executes when loop ends normally.
 
-elif num < 0:
-    print("Negative")
+## 📌 Example
 
-else:
-    print("Zero")
-✅ Program 2: Largest of Two Numbers
-a = 20
-b = 15
+### for i in range(3):
+###     print(i)
 
-if a > b:
-    print("A is Largest")
+### else:
+###     print("Loop Finished")
 
-else:
+## 📌 Output
+
+### 0
+### 1
+### 2
+
+### Loop Finished
+
+## 🔷 Programming Using Conditional Statements and Loops
+
+## ✅ Program 1: Check Positive or Negative
+
+### num = int(input("Enter Number: "))
+
+### if num > 0:
+###    print("Positive")
+
+### elif num < 0:
+###     print("Negative")
+
+### else:
+###     print("Zero")
+
+## ✅ Program 2: Largest of Two Numbers
+
+### a = 20
+### b = 15
+
+### if a > b:
+###     print("A is Largest")
+
+ else:
     print("B is Largest")
-✅ Program 3: Multiplication Table
-num = 5
 
-for i in range(1, 11):
-    print(num * i)
-📌 Output
-5
-10
-15
-20
-25
-30
-35
-40
-45
-50
-✅ Program 4: Sum of Numbers
+## ✅ Program 3: Multiplication Table
+
+### num = 5
+
+### for i in range(1, 11):
+###  print(num * i)
+
+## 📌 Output
+
+### 5
+### 10
+### 15
+### 20
+### 25
+### 30
+### 35
+### 40
+### 45
+### 50
+
+
+## ✅ Program 4: Sum of Numbers
+
 sum = 0
 
 for i in range(1, 11):
     sum += i
 
 print(sum)
-📌 Output
-55
+
+## 📌 Output
+
+### 55
+
+
 ✅ Program 5: Factorial Using while
 num = 5
 fact = 1
@@ -504,55 +527,30 @@ if flag:
 
 else:
     print("Not Prime")
-📊 Difference Between for and while
-Feature	for Loop	while Loop
-Iteration	Fixed	Depends on condition
-Easy to Use	Yes	Moderate
-Infinite Loop Risk	Less	High
-Used For	Sequences	Conditions
-🌟 Advantages of Loops
 
-✅ Reduce code repetition
-✅ Save time
-✅ Increase efficiency
-✅ Easy automation
 
-⚠ Disadvantages of Loops
+## 🌟 Advantages of Loops
 
-❌ Infinite loops possible
-❌ Nested loops can become complex
-❌ Wrong conditions may crash logic
+# ##✅ Reduce code repetition
+### ✅ Save time
+### ✅ Increase efficienc
+### ✅ Easy automation
 
-📝 Important Interview Questions
-What is flow control in Python?
-Difference between if and if-else?
-Explain elif with example.
-What is indentation in Python?
-Difference between for and while?
-Explain break statement.
-Explain continue statement.
-What is pass statement?
-What is infinite loop?
-Explain loop else statement.
-🎯 Conclusion
+## ⚠ Disadvantages of Loops
 
-Python Flow Control helps in:
+### ❌ Infinite loops possible
+### ❌ Nested loops can become complex
+### ❌ Wrong conditions may crash logic
 
-🔀 Decision Making
-🔁 Repeating Tasks
-⚙ Controlling Program Execution
 
-Important concepts:
 
-✅ if, else, elif
-✅ for loop
-✅ while loop
-✅ break, continue, pass
-✅ Conditional Programming
+## 🎯 Conclusion
 
-These topics are very important for:
+### Python Flow Control helps in:
 
-📚 Exams
-💻 Coding
-🎤 Interviews
-🚀 Projects
+### 🔀 Decision Making
+### 🔁 Repeating Tasks
+### ⚙ Controlling Program Execution
+
+---
+
