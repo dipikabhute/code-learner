@@ -62,8 +62,8 @@ parent: Python
 
 ## 🔷 Flowchart of if
 
-### Condition True → Execute Block
-### Condition False → Skip Block
+- ### Condition True → Execute Block
+- ### Condition False → Skip Block
 
 
 ## ✅ if-else Statement
@@ -94,75 +94,100 @@ parent: Python
 
 - ###  Used to check multiple conditions.
 
-📌 Syntax
-if condition1:
-    statement1
+## 📌 Syntax
 
-elif condition2:
-    statement2
+### if condition1:
+###     statement1
 
-else:
-    statement3
-📌 Example
-marks = 85
+### elif condition2:
+###    statement2
 
-if marks >= 90:
-    print("Grade A")
+### else:
+###    statement3
 
-elif marks >= 75:
-    print("Grade B")
+## 📌 Example
 
-elif marks >= 50:
-    print("Grade C")
+### marks = 85
 
-else:
-    print("Fail")
-📌 Output
-Grade B
-🔷 Nested if Statement
+### if marks >= 90:
+###     print("Grade A")
 
-An if inside another if.
+### elif marks >= 75:
+###     print("Grade B")
 
-📌 Example
-num = 10
+### elif marks >= 50:
+###    print("Grade C")
 
-if num > 0:
+### else:
+###    print("Fail")
 
-    if num % 2 == 0:
-        print("Positive Even Number")
-📌 Output
-Positive Even Number
-🔶 Block in Python
+## 📌 Output
 
-A block is a group of statements having the same indentation.
+### Grade B
 
-Python uses indentation instead of { }.
 
-📌 Example
-if True:
-    print("Hello")
-    print("Python")
+## 🔷 Nested if Statement
+- ### An if inside another if.
 
-Both statements belong to same block.
+## 📌 Example
 
-⚠ Importance of Indentation
+### num = 10
 
-Incorrect indentation causes errors.
+### if num > 0:
 
-❌ Wrong
-if True:
-print("Hello")
-✅ Correct
-if True:
-    print("Hello")
-🔁 Loops in Python
+###    if num % 2 == 0:
+###        print("Positive Even Number")
 
-Loops repeat a block of code multiple times.
+## 📌 Output
 
-🔷 Types of Loops
-Loop	Purpose
-for loop	Fixed repetition
-while loop	Repeat while condition is True
+### Positive Even Number
+
+---
+
+---
+
+# 🔶 **Block in Python**
+
+- ### A block is a group of statements having the same indentation.
+
+- ### Python uses indentation instead of { }.
+
+## 📌 Example
+
+### if True:
+###    print("Hello")
+###    print("Python")
+
+- ### Both statements belong to same block.
+
+## ⚠ Importance of Indentation
+
+- ### Incorrect indentation causes errors.
+
+## ❌ Wrong
+
+### if True:
+### print("Hello")
+
+## ✅ Correct
+
+### if True:
+###    print("Hello")
+
+---
+
+
+# **🔁 Loops in Python**
+
+- ### Loops repeat a block of code multiple times.
+---
+## 🔷 **Types of Loops**
+
+Loop	      Purpose
+for loop 	  Fixed repetition
+while loop 	  Repeat while condition is True
+---
+
 ✅ Simple for Loop
 
 Used to iterate through sequences.
