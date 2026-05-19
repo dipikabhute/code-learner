@@ -183,11 +183,11 @@ parent: Python
 ---
 ## 🔷 **Types of Loops**
 
-Loop	      Purpose
+|Loop	      |Purpose                           |
 
-for loop 	  Fixed repetition
+|for loop 	  |Fixed repetition                  |
 
-while loop 	  Repeat while condition is True
+|while loop   |Repeat while condition is True    |
 
 ---
 
