@@ -5,7 +5,7 @@ parent: Python
 ---
 ---
 
-#📘 **What is Program Flow Control?**
+# 📘 **What is Program Flow Control?**
 
 ### Program Flow Control means controlling the order in which statements execute in a program.
 
@@ -107,19 +107,19 @@ parent: Python
 
 ## 📌 Example
 
-### marks = 85
+ marks = 85
 
-### if marks >= 90:
-###     print("Grade A")
+ if marks >= 90:
+     print("Grade A")
 
-### elif marks >= 75:
-###     print("Grade B")
+ elif marks >= 75:
+     print("Grade B")
 
-### elif marks >= 50:
-###    print("Grade C")
+ elif marks >= 50:
+    print("Grade C")
 
-### else:
-###    print("Fail")
+ else:
+   print("Fail")
 
 ## 📌 Output
 
@@ -183,7 +183,7 @@ parent: Python
 ---
 ## 🔷 **Types of Loops**
 
-|Loop	      |Purpose                           |
+|**Loop**	      |**Purpose**                   |
 
 |for loop 	  |Fixed repetition                  |
 
@@ -191,169 +191,229 @@ parent: Python
 
 ---
 
-✅ Simple for Loop
+## ✅ Simple for Loop
 
-Used to iterate through sequences.
+- ### Used to iterate through sequences.
 
-📌 Syntax
-for variable in sequence:
-    statements
-📌 Example
-for i in [1, 2, 3]:
-    print(i)
-📌 Output
-1
-2
-3
-✅ for Loop Using range()
+## 📌 Syntax
 
-range() generates numbers.
+### for variable in sequence:
+###     statements
 
-🔹 range(stop)
-for i in range(5):
-    print(i)
-📌 Output
-0
-1
-2
-3
-4
-🔹 range(start, stop)
-for i in range(1, 6):
-    print(i)
-📌 Output
-1
-2
-3
-4
-5
-🔹 range(start, stop, step)
-for i in range(2, 11, 2):
-    print(i)
-📌 Output
-2
-4
-6
-8
-10
-🔤 for Loop with Strings
+## 📌 Example
 
-Loops can iterate through each character.
+### for i in [1, 2, 3]:
+###     print(i)
 
-📌 Example
-name = "Python"
+## 📌 Output
 
-for ch in name:
-    print(ch)
-📌 Output
-P
-y
-t
-h
-o
-n
-📋 for Loop with Lists
-📌 Example
-fruits = ["Apple", "Mango", "Banana"]
+### 1
+### 2
+### 3
 
-for fruit in fruits:
-    print(fruit)
-📌 Output
-Apple
-Mango
-Banana
-📖 for Loop with Dictionaries
 
-Dictionary stores key-value pairs.
+## ✅ for Loop Using range()
 
-📌 Example
-student = {
-    "name": "Dipika",
-    "age": 20
-}
+- ### range() generates numbers.
 
-for key in student:
-    print(key, ":", student[key])
-📌 Output
-name : Dipika
-age : 20
-🔁 while Loop in Python
+## 🔹 range(stop)
 
-The while loop executes while condition is True.
+### for i in range(5):
+###     print(i)
 
-📌 Syntax
-while condition:
-    statements
-📌 Example
-i = 1
+## 📌 Output
 
-while i <= 5:
-    print(i)
-    i += 1
-📌 Output
-1
-2
-3
-4
-5
-⚠ Infinite while Loop
+### 0
+### 1
+### 2
+### 3
+### 4
 
-Condition never becomes False.
 
-📌 Example
-while True:
-    print("Hello")
+## 🔹 range(start, stop)
 
-⚠ Runs forever.
+### for i in range(1, 6):
+###     print(i)
 
-🔷 Loop Manipulation Statements
+## 📌 Output
 
-These statements control loop behavior.
+### 1
+### 2
+### 3
+### 4
+### 5
 
-📊 Types of Loop Control Statements
-Statement	Purpose
-break	Stop loop
-continue	Skip current iteration
-pass	Empty placeholder
-else	Executes after loop completion
-⛔ break Statement
 
-Terminates loop immediately.
+## 🔹 range(start, stop, step)
 
-📌 Example
-for i in range(1, 6):
+### for i in range(2, 11, 2):
+###     print(i)
 
-    if i == 4:
-        break
+## 📌 Output
 
-    print(i)
-📌 Output
-1
-2
-3
-⏭ continue Statement
+### 2
+### 4
+### 6
+### 8
+### 10
 
-Skips current iteration.
 
-📌 Example
-for i in range(1, 6):
+## **🔤 for Loop with Strings**
 
-    if i == 3:
-        continue
+- ### Loops can iterate through each character.
 
-    print(i)
-📌 Output
-1
-2
-4
-5
-💤 pass Statement
+## 📌 Example
 
-Used as placeholder.
+### name = "Python"
 
-📌 Example
-for i in range(5):
-    pass
+### for ch in name:
+###      print(ch)
+
+## 📌 Output
+
+### P
+### y
+### t
+### h
+### o
+### n
+
+
+## 📋 **for Loop with Lists**
+
+## 📌 Example
+
+### fruits = ["Apple", "Mango", "Banana"]
+
+### for fruit in fruits:
+###     print(fruit)
+
+## 📌 Output
+
+### Apple
+### Mango
+### Banana
+
+
+## 📖 **for Loop with Dictionaries**
+
+- ### Dictionary stores key-value pairs.
+
+## 📌 Example
+
+### student = {
+###     "name": "Dipika",
+###     "age": 20
+### }
+
+### for key in student:
+###     print(key, ":", student[key])
+
+## 📌 Output
+
+### name : Dipika
+### age : 20
+
+
+## 🔁 **while Loop in Python**
+
+- ### The while loop executes while condition is True.
+
+## 📌 Syntax
+
+### while condition:
+###     statements
+
+## 📌 Example
+
+### i = 1
+
+### while i <= 5:
+###     print(i)
+###     i += 1
+
+## 📌 Output
+
+### 1
+### 2
+### 3
+### 4
+### 5
+
+
+## ⚠ Infinite while Loop
+- ### Condition never becomes False.
+
+## 📌 Example
+
+### while True:
+###     print("Hello")
+
+### ⚠ Runs forever.
+
+## 🔷 **Loop Manipulation Statements**
+- ### These statements control loop behavior.
+---
+## 📊 Types of Loop Control Statements
+
+|Statement	     | Purpose                       |
+
+|break	         |Stop loop                      |
+
+|continue	     |Skip current iteration         |
+
+|pass	         |Empty placeholder              |
+
+|else	         |Executes after loop completion |
+
+---
+
+## ⛔ break Statement
+- ### Terminates loop immediately.
+
+## 📌 Example
+
+### for i in range(1, 6):
+
+###    if i == 4:
+###        break
+
+###    print(i)
+
+## 📌 Output
+
+### 1
+### 2
+### 3
+
+
+## ⏭ continue Statement
+- ### Skips current iteration.
+
+## 📌 Example
+
+### for i in range(1, 6):
+
+###     if i == 3:
+###        continue
+
+###    print(i)
+
+## 📌 Output
+
+### 1
+### 2
+### 4
+### 5
+
+
+## 💤 pass Statement
+- ### Used as placeholder.
+
+## 📌 Example
+
+### for i in range(5):
+###    pass
 💡 Explanation
 pass does nothing
 Used for future code
